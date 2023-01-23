@@ -47,7 +47,6 @@ Example call and answer:
 ```http request
 GET http://localhost:8080/todos
 
-----
 [
     {
         "name": "Wäsche waschen",
@@ -69,7 +68,7 @@ Authorization: Basic YWxpY2U6YWxpY2U=
     "name": "Wäsche waschen",
     "due": "2023-01-24"
 }
-----
+
 {
     "name": "Wäsche waschen",
     "created": "2023-01-20T16:48:49.305823981Z",
@@ -84,7 +83,6 @@ Example call and answer:
 GET http://localhost:8080/me
 Authorization: Basic Ym9iOmJvYg==
 
-----
 bob
 ```
 
