@@ -1,8 +1,8 @@
-# Spring Boot 3 HTTP Basic Authentication Demo
+# Spring Boot 3.1 HTTP Basic Authentication Demo
 
 ## Summary
 
-This is a demo for securing a REST interface with Spring Boot 3 and Spring Security.
+This is a demo for securing a REST interface with Spring Boot 3.1 and Spring Security.
 This application provides three REST endpoints:
 
 * Get a list of todos, free for all
@@ -49,7 +49,7 @@ GET http://localhost:8080/todos
 
 [
     {
-        "name": "Wäsche waschen",
+        "name": "Do dishes",
         "created": "2023-01-20T16:41:17.687349226Z",
         "due": "2023-01-24"
     }
@@ -65,12 +65,12 @@ Content-Type: application/json
 Authorization: Basic YWxpY2U6YWxpY2U=
 
 {
-    "name": "Wäsche waschen",
+    "name": "Do dishes",
     "due": "2023-01-24"
 }
 
 {
-    "name": "Wäsche waschen",
+    "name": "Do dishes",
     "created": "2023-01-20T16:48:49.305823981Z",
     "due": "2023-01-24"
 }
