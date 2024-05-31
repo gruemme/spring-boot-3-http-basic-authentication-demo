@@ -1,8 +1,8 @@
-# Spring Boot 3.1 HTTP Basic Authentication Demo
+# Spring Boot 3.3 HTTP Basic Authentication Demo
 
 ## Summary
 
-This is a demo for securing a REST interface with Spring Boot 3.1 and Spring Security.
+This is a demo for securing a REST interface with Spring Boot 3.3 and Spring Security.
 This application provides three REST endpoints:
 
 * Get a list of todos, free for all
